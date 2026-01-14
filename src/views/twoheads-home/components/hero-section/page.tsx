@@ -20,11 +20,18 @@ export default function HeroSection() {
       </h1>
 
       <p className={styles.subtitle}>
-        Create a <em>digital you</em> your audience can talk to, <br /> 24/7 in your
-        voice. Unlock deeper impact, insights, <br /> and warmer leads.
+        Create a <em>digital you</em> your audience can talk to, <br /> 24/7 in
+        your voice. Unlock deeper impact, insights, <br /> and warmer leads.
       </p>
 
-      <a href="#waitlist" className={styles.cta}>
+      <a
+        href="#"
+        className={styles.cta}
+        onClick={(e) => {
+          e.preventDefault();
+          window.open("https://tally.so/r/mRyP2l", "_blank"); 
+        }}
+      >
         Join the waitlist
       </a>
 
