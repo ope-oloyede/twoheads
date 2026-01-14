@@ -1,0 +1,22 @@
+.png {
+  justify-content: center;
+  // border: 2px solid red;
+  display: flex;
+}
+
+.content {
+  .header {
+    h1 {
+      font-size: 32px;
+      font-weight: 600;
+    }
+  }
+  .body {
+    font-size: 24px;
+    font: 600;
+
+    p {
+      font-weight: 500;
+    }
+  }
+}

@@ -10,7 +10,7 @@ export default function HeroSection() {
       <div
         className={`${styles.speechBubble} ${styles.left} animate-float-left`}
       >
-        Great video, but I don't know where to start 😅
+        Great video, but I don't know where to start 😫
       </div>
 
       <h1 className={styles.title}>
