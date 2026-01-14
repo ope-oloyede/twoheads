@@ -6,17 +6,25 @@ export default function WhyTwoHeads() {
   return (
     <div>
       <div className={styles.png}>
-        <Printer />
+        <section id="why-twoheads">
+          <Printer />
+        </section>
+        
       </div>
       <div className="mx-auto px-100 py-4">
         <div className={styles.content}>
-          <div className={styles.header}>
-            <h1>Why TwoHeads?</h1>
-          </div>
+          {/* <section id="why-twoheads"> */}
+            <div className={styles.header}>
+              <h1>Why TwoHeads?</h1>
+            </div>
+          {/* </section> */}
+
           <div className={styles.body}>
             <div className="mt-1">
-              <p>In the last 100 years, we’ve advanced the tools for creating and
-              passing down knowledge.</p>
+              <p>
+                In the last 100 years, we’ve advanced the tools for creating and
+                passing down knowledge.
+              </p>
             </div>
 
             <div className="mt-1">
@@ -80,9 +88,12 @@ export default function WhyTwoHeads() {
             </div>
 
             <div className="mt-1">
-              <br /> <p>This is why we’re building TwoHeads, your smart digital twin
-              that makes your knowledge always accessible through the one thing
-              that makes you unique; Your voice.</p>
+              <br />{" "}
+              <p>
+                This is why we’re building TwoHeads, your smart digital twin
+                that makes your knowledge always accessible through the one
+                thing that makes you unique; Your voice.
+              </p>
             </div>
           </div>
         </div>
