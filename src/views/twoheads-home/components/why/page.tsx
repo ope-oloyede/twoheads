@@ -11,7 +11,7 @@ export default function WhyTwoHeads() {
         </section>
         
       </div>
-      <div className="mx-auto px-100 py-4">
+      <div className="mx-auto px-6 py-4 md:px-20 lg:px-32">
         <div className={styles.content}>
           {/* <section id="why-twoheads"> */}
             <div className={styles.header}>
