@@ -9,14 +9,13 @@ export default function WhyTwoHeads() {
         <section id="why-twoheads">
           <Printer />
         </section>
-        
       </div>
-      <div className="mx-auto px-6 py-4 md:px-20 lg:px-32">
+      <div className="mx-auto px-4 sm:px-6 md:px-12 lg:px-100 py-4">
         <div className={styles.content}>
           {/* <section id="why-twoheads"> */}
-            <div className={styles.header}>
-              <h1>Why TwoHeads?</h1>
-            </div>
+          <div className={styles.header}>
+            <h1>Why TwoHeads?</h1>
+          </div>
           {/* </section> */}
 
           <div className={styles.body}>
