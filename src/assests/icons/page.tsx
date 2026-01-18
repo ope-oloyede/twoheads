@@ -4,37 +4,35 @@ interface Props {
 }
 export const Hamburger: React.FC<Props> = ({ className }) => (
   <svg
-    width="30"
-    height="24"
-    viewBox="0 0 68 51"
-    fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    width="24"
+    height="24"
+    color="currentColor"
+    fill="none"
+    stroke="#141B34"
+    stroke-width="1.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
   >
-    {" "}
-    <path
-      d="M0 5.60529C0 2.50957 2.50957 0 5.60529 0H61.6582C64.7539 0 67.2635 2.50957 67.2635 5.60529C67.2635 8.701 64.7539 11.2106 61.6582 11.2106H5.60529C2.50957 11.2106 0 8.701 0 5.60529Z"
-      fill="black"
-    />{" "}
-    <path
-      d="M16.8159 25.2238C16.8159 22.1281 19.3254 19.6185 22.4212 19.6185H61.6582C64.7539 19.6185 67.2635 22.1281 67.2635 25.2238C67.2635 28.3195 64.7539 30.8291 61.6582 30.8291H22.4212C19.3254 30.8291 16.8159 28.3195 16.8159 25.2238Z"
-      fill="black"
-    />{" "}
-    <path
-      d="M0 44.8423C0 41.7466 2.50957 39.237 5.60529 39.237H61.6582C64.7539 39.237 67.2635 41.7466 67.2635 44.8423C67.2635 47.938 64.7539 50.4476 61.6582 50.4476H5.60529C2.50957 50.4476 0 47.938 0 44.8423Z"
-      fill="black"
-    />{" "}
+    <path d="M4 8.5L20 8.5" />
+    <path d="M4 15.5L20 15.5" />
   </svg>
 );
 
 export const Cancel: React.FC<Props> = ({ className }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="32"
+    viewBox="0 0 24 24"
+    width="24"
     height="24"
-    fill="currentColor"
-    className="bi bi-x"
-    viewBox="0 0 16 16"
+    color="currentColor"
+    fill="none"
+    stroke="#141B34"
+    stroke-width="1.5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
   >
-    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
+    <path d="M18 6L6.00081 17.9992M17.9992 18L6 6.00085" />
   </svg>
 );
